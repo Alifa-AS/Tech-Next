@@ -1,18 +1,18 @@
 "use client";
 
-const OfferCards = () => {
+const Offer = () => {
   const offers = [
     {
       id: 1,
       title: "Summer Sale",
       discount: "Up to 50% Off",
-      bg: "bg-gradient-to-r from-purple-500 to-pink-500",
+      bgImage: "/images/off1.jpg",
     },
     {
       id: 2,
       title: "Winter Special",
       discount: "Flat 30% Discount",
-      bg: "bg-gradient-to-r from-blue-500 to-green-500",
+      bgImage: "/images/2.jpg",
     },
   ];
 
@@ -22,10 +22,20 @@ const OfferCards = () => {
         {offers.map((offer) => (
           <div
             key={offer.id}
-            className={`relative rounded-lg overflow-hidden p-8 flex flex-col justify-center items-center text-center text-white ${offer.bg} shadow-lg hover:scale-105 transform transition-transform duration-300 cursor-pointer`}
+            style={{
+              backgroundImage: `url(${offer.bgImage})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+            className={`relative rounded-lg overflow-hidden p-8 flex flex-col justify-center items-center text-center text-white shadow-lg hover:scale-105 transform transition-transform duration-300 cursor-pointer`}
           >
-            <h3 className="text-2xl font-bold mb-2">{offer.title}</h3>
-            <p className="text-lg">{offer.discount}</p>
+            {/* Overlay for readability */}
+            <div className="absolute inset-0 bg-black/40"></div>
+
+            <div className="relative z-10">
+              <h3 className="text-2xl font-bold mb-2">{offer.title}</h3>
+              <p className="text-lg">{offer.discount}</p>
+            </div>
           </div>
         ))}
       </div>
@@ -33,4 +43,4 @@ const OfferCards = () => {
   );
 };
 
-export default OfferCards;
+export default Offer;

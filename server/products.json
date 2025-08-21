@@ -1,0 +1,301 @@
+{
+  "categories": [
+    {
+      "name": "Phones",
+      "products": [
+        {
+          "id": 1,
+          "name": "iPhone 15",
+          "category": "Phones",
+          "brand": "Apple",
+          "model": "iPhone 15",
+          "screenSize": "6.1\"",
+          "refreshRate": "60 Hz",
+          "resolution": "1170 x 2532",
+          "reviewCount": 10,
+          "sold": 50,
+          "originalPrice": "$1099",
+          "currentPrice": "$999",
+          "image": "/products/p1.png",
+          "description": "Apple iPhone 15 with A16 Bionic chip, dual-camera system, and OLED display. Smooth performance for gaming and photography."
+        },
+        {
+          "id": 2,
+          "name": "Samsung S23",
+          "category": "Phones",
+          "brand": "Samsung",
+          "model": "Galaxy S23",
+          "screenSize": "6.2\"",
+          "refreshRate": "120 Hz",
+          "resolution": "1080 x 2340",
+          "reviewCount": 8,
+          "sold": 40,
+          "originalPrice": "$949",
+          "currentPrice": "$899",
+          "image": "/products/p2.png",
+          "description": "Samsung Galaxy S23 with Snapdragon 8 Gen 2, AMOLED display, and triple-camera system for high-quality photography."
+        },
+        {
+          "id": 3,
+          "name": "Pixel 8",
+          "category": "Phones",
+          "brand": "Google",
+          "model": "Pixel 8",
+          "screenSize": "6.2\"",
+          "refreshRate": "120 Hz",
+          "resolution": "1080 x 2340",
+          "reviewCount": 7,
+          "sold": 35,
+          "originalPrice": "$849",
+          "currentPrice": "$799",
+          "image": "/products/p3.png",
+          "description": "Google Pixel 8 with Google Tensor G3 chip, smooth Android experience, and AI-enhanced camera."
+        },
+        {
+          "id": 4,
+          "name": "OnePlus 12",
+          "category": "Phones",
+          "brand": "OnePlus",
+          "model": "OnePlus 12",
+          "screenSize": "6.7\"",
+          "refreshRate": "120 Hz",
+          "resolution": "1440 x 3216",
+          "reviewCount": 6,
+          "sold": 20,
+          "originalPrice": "$749",
+          "currentPrice": "$699",
+          "image": "/products/p4.png",
+          "description": "OnePlus 12 with Snapdragon 8 Gen 2, AMOLED display, and fast-charging battery for extended usage."
+        }
+      ]
+    },
+    {
+      "name": "Monitors",
+      "products": [
+        {
+          "id": 5,
+          "name": "SAMSUNG 34-Inch Odyssey G5 Ultra-Wide Gaming Monitor",
+          "category": "TV & Computer Screen",
+          "brand": "Samsung",
+          "model": "Odyssey G5",
+          "screenSize": "34\"",
+          "refreshRate": "165 Hz",
+          "resolution": "3440 x 1440",
+          "reviewCount": 1,
+          "sold": 31,
+          "originalPrice": "$449.99",
+          "currentPrice": "$99.91",
+          "image": "/products/monitor1.jpg",
+          "description": "The all-encompassing 1000R display fills every part of your peripheral vision and draws you right into the character’s shoes. Experience a level of gaming more heart-pounding than anything before. The ultrawide WQHD monitor displays more onscreen content with a seamless dual monitor experience with a 1000R curvature. This gaming monitor has a 165hz refresh rate and 1ms response time prevents motion blur. Effortlessly smooth gameplay; AMD FreeSync Premium features adaptive sync technology which reduces screen tearing, stutter, and input latency. This IPS monitor has HDR10 that creates excellent color accuracy that shows contents exactly as the creator intended."
+        }
+      ]
+    },
+    {
+      "name": "Laptops",
+      "products": [
+        {
+          "id": 6,
+          "name": "MacBook Pro",
+          "category": "Laptops",
+          "brand": "Apple",
+          "model": "MacBook Pro M2",
+          "screenSize": "14\"",
+          "refreshRate": "60 Hz",
+          "resolution": "3024 x 1964",
+          "reviewCount": 12,
+          "sold": 25,
+          "originalPrice": "$2199",
+          "currentPrice": "$1999",
+          "image": "/products/laptop1.jpg",
+          "description": "Apple MacBook Pro with M2 chip, high-resolution Retina display, and extended battery life for professional work."
+        },
+        {
+          "id": 7,
+          "name": "Dell XPS 13",
+          "category": "Laptops",
+          "brand": "Dell",
+          "model": "XPS 13",
+          "screenSize": "13\"",
+          "refreshRate": "60 Hz",
+          "resolution": "1920 x 1200",
+          "reviewCount": 9,
+          "sold": 15,
+          "originalPrice": "$1399",
+          "currentPrice": "$1299",
+          "image": "/products/laptop2.jpg",
+          "description": "Dell XPS 13 with Intel i7 13th Gen, InfinityEdge display, and sleek design for professional and personal use."
+        },
+        {
+          "id": 8,
+          "name": "HP Spectre",
+          "category": "Laptops",
+          "brand": "HP",
+          "model": "Spectre x360",
+          "screenSize": "13.5\"",
+          "refreshRate": "60 Hz",
+          "resolution": "3000 x 2000",
+          "reviewCount": 7,
+          "sold": 10,
+          "originalPrice": "$1499",
+          "currentPrice": "$1399",
+          "image": "/products/laptop3.jpg",
+          "description": "HP Spectre x360 with Intel i7, touch display, and convertible design for flexible usage."
+        },
+        {
+          "id": 9,
+          "name": "Asus Zenbook",
+          "category": "Laptops",
+          "brand": "Asus",
+          "model": "Zenbook 14",
+          "screenSize": "14\"",
+          "refreshRate": "60 Hz",
+          "resolution": "1920 x 1080",
+          "reviewCount": 6,
+          "sold": 12,
+          "originalPrice": "$1199",
+          "currentPrice": "$1099",
+          "image": "/products/laptop4.jpg",
+          "description": "Asus Zenbook 14 with Intel i5, lightweight design, and full HD display for daily tasks and portability."
+        }
+      ]
+    },
+    {
+      "name": "Accessories",
+      "products": [
+        {
+          "id": 10,
+          "name": "AirPods Pro",
+          "category": "Accessories",
+          "brand": "Apple",
+          "model": "AirPods Pro",
+          "screenSize": "N/A",
+          "refreshRate": "N/A",
+          "resolution": "N/A",
+          "reviewCount": 15,
+          "sold": 60,
+          "originalPrice": "$269",
+          "currentPrice": "$249",
+          "image": "/products/accessory1.jpg",
+          "description": "Apple AirPods Pro with active noise cancellation, transparency mode, and immersive sound quality."
+        },
+        {
+          "id": 11,
+          "name": "Charger",
+          "category": "Accessories",
+          "brand": "Anker",
+          "model": "PowerPort III",
+          "screenSize": "N/A",
+          "refreshRate": "N/A",
+          "resolution": "N/A",
+          "reviewCount": 8,
+          "sold": 100,
+          "originalPrice": "$39",
+          "currentPrice": "$29",
+          "image": "/products/accessory2.jpg",
+          "description": "Fast-charging Anker PowerPort III charger compatible with multiple devices including smartphones and tablets."
+        },
+        {
+          "id": 12,
+          "name": "Smart Watch",
+          "category": "Accessories",
+          "brand": "Samsung",
+          "model": "Galaxy Watch 6",
+          "screenSize": "1.4\"",
+          "refreshRate": "60 Hz",
+          "resolution": "450 x 450",
+          "reviewCount": 10,
+          "sold": 40,
+          "originalPrice": "$219",
+          "currentPrice": "$199",
+          "image": "/products/accessory3.jpg",
+          "description": "Samsung Galaxy Watch 6 with fitness tracking, heart rate monitoring, and AMOLED display."
+        },
+        {
+          "id": 13,
+          "name": "USB-C Hub",
+          "category": "Accessories",
+          "brand": "Anker",
+          "model": "USB-C Hub 6-in-1",
+          "screenSize": "N/A",
+          "refreshRate": "N/A",
+          "resolution": "N/A",
+          "reviewCount": 5,
+          "sold": 25,
+          "originalPrice": "$59",
+          "currentPrice": "$49",
+          "image": "/products/accessory4.jpg",
+          "description": "Anker USB-C Hub with multiple ports for laptops and tablets, enabling connection to HDMI, USB-A, SD card, and more."
+        }
+      ]
+    },
+    {
+      "name": "Gadgets",
+      "products": [
+        {
+          "id": 14,
+          "name": "Drone",
+          "category": "Gadgets",
+          "brand": "DJI",
+          "model": "Mini 3 Pro",
+          "screenSize": "N/A",
+          "refreshRate": "N/A",
+          "resolution": "4K",
+          "reviewCount": 12,
+          "sold": 20,
+          "originalPrice": "$599",
+          "currentPrice": "$499",
+          "image": "/products/gadget1.jpg",
+          "description": "DJI Mini 3 Pro drone with 4K camera, obstacle sensors, and lightweight design for aerial photography."
+        },
+        {
+          "id": 15,
+          "name": "VR Headset",
+          "category": "Gadgets",
+          "brand": "Meta",
+          "model": "Quest 3",
+          "screenSize": "N/A",
+          "refreshRate": "120 Hz",
+          "resolution": "1832 x 1920",
+          "reviewCount": 8,
+          "sold": 10,
+          "originalPrice": "$449",
+          "currentPrice": "$399",
+          "image": "/products/gadget2.jpg",
+          "description": "Meta Quest 3 VR headset with immersive gaming experience and high-resolution display."
+        },
+        {
+          "id": 16,
+          "name": "Smart Camera",
+          "category": "Gadgets",
+          "brand": "GoPro",
+          "model": "Hero 12",
+          "screenSize": "N/A",
+          "refreshRate": "60 Hz",
+          "resolution": "5.3K",
+          "reviewCount": 9,
+          "sold": 15,
+          "originalPrice": "$349",
+          "currentPrice": "$299",
+          "image": "/products/gadget3.jpg",
+          "description": "GoPro Hero 12 with 5.3K video recording, waterproof, and advanced stabilization for action filming."
+        },
+        {
+          "id": 17,
+          "name": "Power Bank",
+          "category": "Gadgets",
+          "brand": "Anker",
+          "model": "PowerCore 20000",
+          "screenSize": "N/A",
+          "refreshRate": "N/A",
+          "resolution": "N/A",
+          "reviewCount": 6,
+          "sold": 30,
+          "originalPrice": "$69",
+          "currentPrice": "$59",
+          "image": "/products/gadget4.jpg",
+          "description": "Anker PowerCore 20000 portable power bank with fast charging support and high-capacity battery for multiple devices."
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 import { FaTruck, FaClock, FaHeadset } from "react-icons/fa";
 
-const ServiceCards = () => {
+const Card = () => {
   const services = [
     {
       id: 1,
@@ -45,4 +45,4 @@ const ServiceCards = () => {
   );
 };
 
-export default ServiceCards;
+export default Card;
