@@ -14,8 +14,6 @@ const ProductDetails = () => {
     fetch(`http://localhost:5000/api/products/${id}`)
       .then((res) => res.json())
       .then((data) => {
-        // যদি API wrapper থাকে তাহলে ঠিক করো
-        // উদাহরণ: setProduct(data.product);
         setProduct(data); 
       })
       .catch((err) => console.log("Fetch error:", err));
